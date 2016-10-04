@@ -27,7 +27,7 @@ int main() {
 	ifstream myfile;
 	string line;
 
-	myfile.open("E:\\Original_File.txt");
+	myfile.open("C:\\Users\\HUY BAO LE\\Documents\\Visual Studio 2015\\Projects\\HuffmanTree\\Debug\\Original_File.txt");
 	if (myfile.is_open()) {
 		while (getline(myfile, line)) {
 			int i;
